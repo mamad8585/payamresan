@@ -132,11 +132,11 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-باادمین در ارتباط باشید  👈        [⭐️ADMIN⭐️](https://telegram.me/mohammad20162015)
+به ربات ما امتیاز بدید  👈        [⭐️PvResan⭐️](https://telegram.me/storebot?start=pvresanbot)
 
 🔹هر نفر = یک ربات ✖️
 🔸ربات دوم = 5000ت ✔️
-🤖 @mohammad20162015',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🤖 @PvResanBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
@@ -224,8 +224,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://s3pvresan-vpnnariman.rhcloud.com/'.$chat_id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
-باادمین در ارتباط باشید  👇
- https://telegram.me/mohammad20162015
+به ربات ما امتیاز بدید  👇
+ https://telegram.me/storebot?start=pvresanbot
 .";
     
     $bot_url    = "https://api.telegram.org/bot239149379:AAFiSFgh_yY2FmtgKZV-srPTtQ6KLY8dB6k/"; 
@@ -260,7 +260,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @mohammad20162015"));
+🚀 @nawr_i_man_bot"));
       }
     }
       
@@ -308,7 +308,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://s3pvresan-vpnnariman.rhcloud.com/'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
-باادمین در ارتباط باشید  👇
+به ربات ما امتیاز بدید  👇
  https://telegram.me/storebot?start=pvresanbot
 .";
     
@@ -339,7 +339,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @mohammad20162015"));
+🚀 @nawr_i_man_bot"));
       }
 
     }
@@ -388,3 +388,5 @@ if (!$update) {
 if (isset($update["message"])) {
   processMessage($update["message"]);
 }
+
+
